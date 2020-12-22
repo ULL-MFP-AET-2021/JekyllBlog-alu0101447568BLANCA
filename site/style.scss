@@ -18,16 +18,18 @@ html {
 }
 
 body {
-	background: $white;
+	background: rgb(0, 225, 255);
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
-}
+  color: #222;
+        
+  }
 
 .container {
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+        
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,22 +47,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 28px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 16px;
   color: $gray;
 }
 
@@ -74,7 +76,7 @@ a {
 	cursor: pointer;
   &:hover, &:active {
     color: $blue;
-  }
+      }
 }
 
 ul, ol {
@@ -92,7 +94,7 @@ ol {
 
 ol ul, ul ol, ul ul, ol ol {
   margin: 0;
-}
+  }
 
 ul ul, ol ul {
   list-style-type: circle;
@@ -173,7 +175,7 @@ img {
     float: none;
     display: block;
     margin: 0 auto;
-  }
+      }
 
   img {
     border-radius: 5px;
@@ -192,11 +194,11 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #222;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 30px;
   letter-spacing: 1px;
 }
 
@@ -232,7 +234,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: #0000FF;
     }
   }
 }
@@ -267,7 +269,15 @@ nav {
 
   .read-more {
     text-transform: uppercase;
+    color: #222;
+    background-color: yellow;
+     border-radius: 10px;
+            border: 3px solid #8AC007;
+            padding: 8px; 
+            width: 20px;
+            height: 20px;
     font-size: 15px;
+    box-shadow: 3px 3px
   }
 }
 
@@ -276,6 +286,7 @@ nav {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
+   
 }
 
 footer {
@@ -287,3 +298,4 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+

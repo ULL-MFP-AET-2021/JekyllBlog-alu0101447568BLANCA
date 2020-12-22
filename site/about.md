@@ -1,15 +1,16 @@
 ---
 layout: page
-title: About
+title: Sobre mi
 permalink: /about/
 ---
 
-Some information about you!
+Vivo en: Santa Cruz de Tenerife
+
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Estoy aprendiendo Jekyll...
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[alu0101447568@ull.edu.es](mailto:alu0101447568@ull.edu.es)
